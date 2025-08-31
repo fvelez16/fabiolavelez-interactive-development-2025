@@ -1,8 +1,3 @@
-<!DOCTYPE html>
-<html>
-    <body>
-          <h1>What a surprise!</h1>
-        <pre>
                                                   ██████    
        ██████████████████               ██████████░░░░░█    
   █████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒██        ██████░░░░░░░░░░░░░░░░█   
@@ -16,9 +11,4 @@
     ██▒▒▒▒▓▓▓▓▓▓▓▓▓▒▒▒▒▒██        █░░░░░░█████░░░░░░░█████░█
     ███▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒████        ███████     █░░░░░░░░░░░░█
      ██████████████████                  ████████████░░░░░░█
-                                                     ███████                       
-        </pre>
-         <p>Mouse was happy to share some of his homemade strawberry jam and toast with you!</p>
-          <a href="page3.html">Continue your adventure</a>
-    </body>
-    </html>
+                                                     ███████
