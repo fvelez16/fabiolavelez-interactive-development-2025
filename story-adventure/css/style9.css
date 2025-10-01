@@ -1,0 +1,40 @@
+body{
+    background-color:gainsboro;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    color:lightseagreen;
+}
+h2{
+    color:lightseagreen;
+}
+p{
+    color:lightseagreen;
+}
+.grid-unit{
+    vertical-align:top;
+    width:calc(25% - 10px);
+    background-color:whitesmoke;
+    height:700x;
+    display:inline-block;
+    margin-right:10px;
+    margin-bottom:10px;
+    font-size:18px;
+    line-height:40px;
+}
+.special{
+    height:150px;
+    font-size:20px;
+    line-height:40px;
+     border:brown 10px inset;
+    box-sizing: border-box;
+    padding:10px;
+}
+#second-box{
+    background-image: url(../images/image9.jpg);
+    height:600px;
+    width:1000px;
+    border:brown 10px inset;
+    box-sizing: border-box;
+    padding:10px;
+}

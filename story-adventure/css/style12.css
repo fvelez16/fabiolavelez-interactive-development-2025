@@ -1,0 +1,34 @@
+body{
+    background-color:gainsboro;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    color:lightseagreen;
+}
+h2{
+    color:lightseagreen;
+}
+p{
+    color:lightseagreen;
+}
+.grid-unit{
+    vertical-align:top;
+    width:calc(25% - 10px);
+    background-color:lightgreen;
+    height:700x;
+    display:inline-block;
+    margin-right:10px;
+    margin-bottom:10px;
+    font-size:18px;
+    line-height:40px;
+}
+.special{
+    height:150px;
+    font-size:20px;
+    line-height:40px;
+}
+#second-box{
+    background-image: url(../images/image12.jpg);
+    height:700px;
+    width:900px;
+}
