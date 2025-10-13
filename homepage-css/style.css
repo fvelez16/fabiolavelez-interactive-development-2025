@@ -1,3 +1,24 @@
-body{
-    font-family:cursive;
-}
+ body{
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color:rgb(255, 228, 233);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    h1{
+        color:darkmagenta;
+        font-family: "cherry-bomb";
+        font-size: 55px;
+        margin-top: 2px;
+    }
+    h3{
+        color:darkmagenta
+    }
+    @font-face {
+        font-family: "cherry-bomb";
+        src: url(fonts/CherryBombOne-Regular.ttf);
+    }
+    img{
+        height:1570px;
+        margin-top: 2rem;
+        margin-left: -5rem;
+    }
