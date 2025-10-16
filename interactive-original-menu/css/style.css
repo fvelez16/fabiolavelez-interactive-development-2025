@@ -1,0 +1,144 @@
+
+.grid1{
+    vertical-align:top;
+    display:inline-block;
+    margin-right:45px;
+    margin-left: 215px;
+    margin-bottom:-40px;
+    margin-top: 20px;
+}
+.menu{
+    background-color: rgb(251, 210, 217);
+}
+@media all and (max-width:3000px){
+    .grid1{
+        width:calc(33.333% - 2rem * 1.3);
+    }
+}
+@media all and (max-width:1500px){
+    .grid1{
+    width:calc(50% - 2rem * 1.3);
+}
+}
+@media all and (max-width:500px){
+    .grid1{
+        width:calc(100% - 2rem * 1.3);
+    }
+}
+@media all and (max-width:3000px){
+    .grid2{
+        width:calc(33.333% - 2rem * 1.3);
+    }
+}
+@media all and (max-width:1500px){
+    .grid2{
+    width:calc(50% - 2rem * 1.3);
+}
+}
+@media all and (max-width:500px){
+    .grid2{
+        width:calc(100% - 2rem * 1.3);
+    }
+}
+
+
+
+ @font-face {
+        font-family: "biscuit-glitch";
+        src: url(../fonts/biscuit_glitch/Biscuit\ Glitch.ttf);
+ }
+h1{
+    font-family: "biscuit-glitch";
+    color: rgb(157, 65, 81);
+    font-size: 70px;
+}
+.grid2{
+    vertical-align:left;
+    display:inline-block;
+    margin-right:45px;
+    margin-left: 280px;
+    margin-bottom:30px;
+    margin-top: 20px;
+}
+h2{
+    font-family:"biscuit-glitch";
+    color: rgb(157, 65, 81);
+    font-size: 35px;
+}
+
+h3{
+    font-family: "biscuit-glitch";
+    color: rgb(186, 90, 106);
+    font-size: 20px;
+}
+p{
+    font-family:cursive;
+    color: rgb(186, 90, 106);
+}
+
+.menu-items1{
+    vertical-align:top;
+    display:inline-block;
+    margin-right:45px;
+    margin-left: -150px;
+    margin-bottom:-40px;
+    margin-top: 20px;
+}
+
+.cake-types{
+    vertical-align:top;
+    display:inline-block;
+    margin-right:45px;
+    margin-left: -130px;
+    margin-bottom:-40px;
+    margin-top: 85px;
+    width: 200px;
+}
+.crepe-types{
+    vertical-align:top;
+    display:inline-block;
+    margin-right:45px;
+    margin-left: -150px;
+    margin-bottom:-40px;
+    margin-top: 85px;
+    width: 200px;
+}
+.menu-items2{
+    vertical-align:top;
+    display:inline-block;
+    margin-right:45px;
+    margin-left: 115px;
+    margin-bottom:-40px;
+    margin-top: 20px;
+}
+.grid3{
+    vertical-align:left;
+    display:inline-block;
+    margin-right:45px;
+    margin-left: 210px;
+    margin-bottom:0px;
+    margin-top: 5px;
+}
+.menu-items3{
+    vertical-align:top;
+    display:inline-block;
+    margin-right:45px;
+    margin-left: -150px;
+    margin-bottom:-40px;
+    margin-top: 20px;
+}
+.pie-types{
+    margin-right:45px;
+    margin-left: -150px;
+    margin-bottom:-40px;
+    margin-top: 30px;
+    width: 200px;
+}
+.image{
+    width: 300px;
+    height:300px;
+    margin-top: 55px;
+    vertical-align: top;
+    display: inline-flex;
+}
+
