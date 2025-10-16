@@ -10,39 +10,6 @@
 .menu{
     background-color: rgb(251, 210, 217);
 }
-@media all and (max-width:3000px){
-    .grid1{
-        width:calc(33.333% - 2rem * 1.3);
-    }
-}
-@media all and (max-width:1500px){
-    .grid1{
-    width:calc(50% - 2rem * 1.3);
-}
-}
-@media all and (max-width:500px){
-    .grid1{
-        width:calc(100% - 2rem * 1.3);
-    }
-}
-@media all and (max-width:3000px){
-    .grid2{
-        width:calc(33.333% - 2rem * 1.3);
-    }
-}
-@media all and (max-width:1500px){
-    .grid2{
-    width:calc(50% - 2rem * 1.3);
-}
-}
-@media all and (max-width:500px){
-    .grid2{
-        width:calc(100% - 2rem * 1.3);
-    }
-}
-
-
-
  @font-face {
         font-family: "biscuit-glitch";
         src: url(../fonts/biscuit_glitch/Biscuit\ Glitch.ttf);
@@ -141,4 +108,67 @@ p{
     vertical-align: top;
     display: inline-flex;
 }
+
+@media all and (max-width:3000px){
+    .grid1{
+        width:calc(33.333% - 2rem * 1.3);
+        height: 26rem;
+    }
+}
+@media all and (max-width:1500px){
+    .grid1{
+    width:calc(50% - 2rem * 1.3);
+            height: 26rem;
+
+}
+}
+@media all and (max-width:500px){
+    .grid1{
+        width:calc(100% - 2rem * 1.3);
+                height: 26rem;
+
+    }
+}
+@media all and (max-width:3000px){
+    .grid2{
+        width:calc(33.333% - 2rem * 1.3);
+                height: 26rem;
+
+    }
+}
+@media all and (max-width:1500px){
+    .grid2{
+    width:calc(50% - 2rem * 1.3);
+            height: 26rem;
+
+}
+}
+@media all and (max-width:500px){
+    .grid2{
+        width:calc(100% - 2rem * 1.3);
+                height: 26rem;
+
+    }
+}
+@media all and (max-width:3000px){
+    .grid3{
+        width:calc(33.333% - 2rem * 1.3);
+        height: 26rem;
+    }
+}
+@media all and (max-width:1500px){
+    .grid3{
+    width:calc(50% - 2rem * 1.3);
+            height: 26rem;
+
+}
+}
+@media all and (max-width:500px){
+    .grid3{
+        width:calc(100% - 2rem * 1.3);
+                height: 26rem;
+
+    }
+}
+
 
