@@ -1,0 +1,99 @@
+@font-face{
+    font-family: "silkscreen";
+    src: url(../fonts/Silkscreen-Regular.ttf);
+}
+
+body{
+    background-color:rgb(0, 0, 0); 
+}
+
+.container{
+    width:2550px;
+    height:1340px;
+    padding-top: 25px;
+    background-color:rgb(0, 0, 0); 
+}
+
+
+.lyric-block7{
+height: 275px;
+width: 1000px; 
+text-align: center;
+font-size: medium;
+z-index:10;
+position:absolute;
+top: -40px;
+left: 1400px;
+font-family:Impact, 'Arial Narrow Bold', sans-serif;
+color: rgb(178, 178, 178);
+font-size: 120px;
+}
+
+#typewriting-target{
+    color:rgb(178, 178, 178);
+    font-family: "silkscreen";
+    font-size:larger;
+    height: 200px;
+    width: 300px;
+}
+
+#typewriting-target2{
+    color:rgb(178, 178, 178);
+    font-family: "silkscreen";
+    font-size:smaller;
+}
+#typewriting-target3{
+    color:rgb(178, 178, 178);
+    font-family: "silkscreen";
+    font-size:x-large;
+    height: 200px;
+    width: 300px;
+}
+#typewriting-target4{
+    color:rgb(178, 178, 178);
+    font-family: "silkscreen";
+    font-size:medium;
+    height: 200px;
+    width: 300px;
+}
+
+#typewriting-target5{
+    color:rgb(178, 178, 178);
+    font-family: "silkscreen";
+    font-size:x-large;
+    height: 300px;
+    width: 100px;
+}
+#typewriting-target6{
+    color:rgb(178, 178, 178);
+    font-family: "silkscreen";
+    font-size:small;
+}
+
+.lyric-block1{
+    margin-left: 3%;
+    margin-top: 2%;
+}
+
+.lyric-block2{
+    margin-left: 15%;
+    margin-top: 10%;
+}
+
+.lyric-block3{
+    margin-left: 10%;
+    margin-top: 12%;
+}
+.lyric-block4{
+    margin-left: 60%;
+    margin-top: -15%;
+}
+
+.lyric-block5{
+    margin-left: 90%;
+    margin-top: -20%;
+}
+.lyric-block6{
+    margin-left: 50%;
+    margin-top: 15%;
+}

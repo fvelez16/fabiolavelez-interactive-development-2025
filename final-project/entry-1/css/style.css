@@ -1,0 +1,176 @@
+@font-face{
+    font-family: "silkscreen";
+    src: url(../fonts/Silkscreen-Regular.ttf);
+}
+body{
+    background-color:rgb(139, 166, 181);
+}
+.container{
+    background-color:rgb(139, 166, 181);
+    width:2550px;
+    height:1340px;
+    padding-top: 25px;
+}
+.lyric-block1{
+    height: 550px;
+    width: 375px;
+    text-align: center;
+    font-size: x-large;
+    margin-left: 50px;
+    z-index:10;
+    
+}
+.text{
+    font-family:"silkscreen";
+    color: white;
+    font-size: 50px;
+}
+.lyric-block2{
+    height: 50px;
+    width: 500px;
+    text-align: center;
+    font-size: x-large;
+    margin-left: 350px;
+    margin-bottom:-400px;
+  
+}
+.text2{
+    font-family:"silkscreen";
+    color: white;
+    font-size: 18px;
+}
+.lyric-block3{
+    height: 275px;
+    width: 1000px;
+    text-align: center;
+    font-size: medium;
+    margin-left: 940px;
+    margin-bottom:100px;
+   
+
+}
+.text3{
+    font-family:"silkscreen";
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+} 
+
+.lyric-block4{
+    height: 100px;
+    width: 560px;
+    text-align: center;
+    font-size: x-large;
+    margin-left:1080px;
+    margin-top:20px;
+}
+.text4{
+    font-family:"silkscreen";
+    color: white;
+    font-size: 50px;
+}
+.lyric-block5{
+    height: 150px;
+    width: 200px;
+    text-align: center;
+    font-size: x-large;
+    margin-left:2100px;
+    margin-top:-280px;
+}
+.text5{
+    font-family:"silkscreen";
+    color: white;
+    font-size: 35px;
+}
+.lyric-block6{
+height: 275px;
+width: 1490px; 
+text-align: center;
+font-size: medium;
+position:absolute;
+top: -40px;
+left: 1010px;
+font-family:Impact, 'Arial Narrow Bold', sans-serif;
+color: rgb(171, 99, 99);
+font-size: 120px;
+
+}
+.text6{
+/*font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color: rgb(171, 99, 99);
+font-size: 120px;  */
+} 
+
+span{
+    animation: 1s linear infinite;
+    animation-name: "blinker";
+}
+
+@keyframes blinker{
+    50%{
+        opacity:0;
+    }
+}
+
+.lyric-block7{
+    height: 100px;
+    width: 250px;
+    text-align: center;
+    font-size: x-large;
+    margin-left:20px;
+    margin-top:200px;
+}
+.text7{
+    font-family:"silkscreen";
+    color: white;
+    font-size: 20px;
+}
+.hover-text{
+    font-size: 50px;
+    transition: font-size 0.3s ease;
+}
+.hover-text:hover{
+    font-size: 80px;
+    color: pink;
+}
+
+.hover-text2{
+    font-size: 18px;
+    transition: font-size 0.3s ease;
+}
+.hover-text2:hover{
+    font-size: 30px;
+    color: pink;
+}
+
+.hover-text3{
+    font-size: 25px;
+    transition: font-size 0.3s ease;
+}
+.hover-text3:hover{
+    font-size: 50px;
+    color: pink;
+}
+.hover-text4{
+    font-size: 50px;
+    transition: font-size 0.3s ease;
+}
+.hover-text4:hover{
+    font-size: 80px;
+    color: pink;
+}
+.hover-text5{
+    font-size: 35px;
+    transition: font-size 0.3s ease;
+}
+.hover-text5:hover{
+    font-size: 50px;
+    color: pink;
+}
+.hover-text7{
+    font-size: 20px;
+    transition: font-size 0.3s ease;
+}
+.hover-text7:hover{
+    font-size: 50px;
+    color: pink;
+}

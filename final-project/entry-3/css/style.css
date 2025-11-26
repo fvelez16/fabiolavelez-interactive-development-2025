@@ -1,0 +1,227 @@
+@font-face{
+    font-family: "silkscreen";
+    src: url(../fonts/Silkscreen-Regular.ttf);
+}
+
+body{
+    background-color:rgb(61, 66, 147); 
+}
+
+.container{
+    width:2550px;
+    height:1340px;
+    padding-top: 25px;
+    background-color:rgb(61, 66, 147); 
+}
+
+
+.lyric-block6{
+height: 275px;
+width: 1000px; 
+text-align: center;
+font-size: medium;
+z-index:10;
+position:absolute;
+top: -40px;
+left: 1400px;
+font-family:Impact, 'Arial Narrow Bold', sans-serif;
+color: rgb(214, 238, 242);
+font-size: 120px;
+}
+
+.lyric-block1{
+    height: 550px;
+    width: 100px;
+    text-align: center;
+    font-size: x-large;
+    margin-left: 5%;
+    margin-top: 5%;
+    z-index:10;
+    
+}
+.text{
+    font-family:"silkscreen";
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+
+    animation-name:fade-animation1;
+    animation-duration:3s;
+    animation-iteration-count: 1;
+}
+
+ .lyric-block2{
+    height: 50px;
+    width: 800px;
+    text-align: center;
+    font-size: x-large;
+    margin-left: 30%;
+    margin-top: -10%;
+    z-index:10;
+
+}
+
+.text2{
+    font-family:"silkscreen";
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+
+    animation-name:fade-animation2;
+    animation-duration:6s;
+    animation-iteration-count: 1;
+}
+
+.lyric-block3{
+    height: 30px;
+    width: 1200px;
+    text-align: center;
+    font-size: medium;
+    margin-left: 30%;
+    margin-top:15%;
+    z-index:10;
+}
+
+@keyframes fade-animation1{
+   0%{opacity: 0%;}
+    25%{opacity: 0%;}
+    50%{opacity: 0%;}
+    75%{opacity:75%}
+    100%{opacity:100%}
+}
+
+@keyframes fade-animation2{ 
+    0%{opacity: 0%;}
+    15%{opacity: 0%}
+    25%{opacity: 0%;}
+    50%{opacity: 0%;}
+    75%{opacity:65%}
+    100%{opacity:100%}
+}
+@keyframes fade-animation3{ 
+    0%{opacity: 0%;}
+    15%{opacity: 0%}
+    25%{opacity: 0%;}
+    50%{opacity: 0%;}
+    75%{opacity:55%}
+    100%{opacity:100%}
+}
+@keyframes fade-animation4{ 
+    0%{opacity: 0%;}
+    15%{opacity: 0%}
+    25%{opacity: 0%;}
+    50%{opacity: 0%;}
+    75%{opacity:45%}
+    100%{opacity:100%}
+}
+@keyframes fade-animation5{ 
+    0%{opacity: 0%;}
+    15%{opacity: 0%}
+    25%{opacity: 0%;}
+    50%{opacity: 0%;}
+    75%{opacity:35%}
+    100%{opacity:100%}
+}
+
+@keyframes fade-animation7{ 
+    0%{opacity: 0%;}
+    15%{opacity: 0%}
+    25%{opacity: 0%;}
+    50%{opacity: 0%;}
+    75%{opacity:25%}
+    100%{opacity:100%}
+}
+@keyframes fade-animation8{ 
+    0%{opacity: 0%;}
+    15%{opacity: 0%}
+    25%{opacity: 0%;}
+    50%{opacity: 0%;}
+    75%{opacity:15%}
+    100%{opacity:100%}
+}
+
+
+
+.text3{
+    font-family:"silkscreen";
+    color:rgb(255, 255, 255);
+    font-size: 25px;
+
+    animation-name:fade-animation3;
+    animation-duration:9s;
+    animation-iteration-count: 1;
+} 
+
+.lyric-block4{
+    height: 150px;
+    width: 50px;
+    text-align: center;
+    font-size: x-large;
+    margin-left: 85%;
+    margin-top:-20%;
+    z-index:10;
+}
+.text4{
+    font-family:"silkscreen";
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+
+    animation-name:fade-animation4;
+    animation-duration:12s;
+    animation-iteration-count: 1;
+}
+
+.lyric-block5{
+    height: 150px;
+    width: 600px;
+    text-align: center;
+    font-size: x-large;
+    margin-left:2%;
+    margin-top:6%;
+}
+
+.text5{
+    font-family:"silkscreen";
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+
+    animation-name:fade-animation5;
+    animation-duration:15s;
+    animation-iteration-count: 1;
+}
+
+.lyric-block7{
+    height: 150px;
+    width: 650px;
+    text-align: center;
+    font-size: x-large;
+    margin-left:15%;
+    margin-top:5%;
+}
+.text7{
+    font-family:"silkscreen";
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+
+    animation-name:fade-animation7;
+    animation-duration:18s;
+    animation-iteration-count: 1;
+
+}
+.lyric-block8{
+    height: 20px;
+    width: 300px;
+    text-align: center;
+    font-size: x-large;
+    margin-left: 25%;
+    margin-top: -45%;
+    z-index:10;
+    
+}
+.text8{
+    font-family:"silkscreen";
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+
+    animation-name:fade-animation8;
+    animation-duration:21s;
+    animation-iteration-count: 1;
+}
