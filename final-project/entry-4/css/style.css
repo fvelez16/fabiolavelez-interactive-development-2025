@@ -34,7 +34,7 @@ font-size: 120px;
     font-family: "silkscreen";
     font-size:larger;
     height: 200px;
-    width: 300px;
+    width: 200px;
 }
 
 #typewriting-target2{
@@ -67,7 +67,7 @@ font-size: 120px;
 #typewriting-target6{
     color:rgb(178, 178, 178);
     font-family: "silkscreen";
-    font-size:small;
+    font-size:large;
 }
 
 .lyric-block1{
@@ -94,6 +94,6 @@ font-size: 120px;
     margin-top: -20%;
 }
 .lyric-block6{
-    margin-left: 50%;
-    margin-top: 15%;
+    margin-left: 40%;
+    margin-top: 20%;
 }

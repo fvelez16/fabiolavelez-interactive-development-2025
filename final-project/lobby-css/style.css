@@ -1,0 +1,164 @@
+@font-face{
+    font-family: "silkscreen";
+    src: url(../fonts/Silkscreen-Regular.ttf);
+}
+body{
+    background-color:rgb(73, 73, 73);
+}
+.container{
+    background-color:rgb(73, 73, 73);
+    width:2550px;
+    height:1340px;
+    padding-top: 25px;
+}
+
+a{
+    color:rgb(255, 255, 255);
+}
+a:hover{
+    color:rgb(224, 201, 244);
+}
+a:active{
+    color:rgb(151, 85, 172);
+}
+
+
+#lobbytitle{
+font-family:Impact, 'Arial Narrow Bold', sans-serif;
+color: rgb(204, 204, 204);
+height: 275px;
+width: 1490px; 
+text-align: center;
+font-size: medium;
+position:absolute;
+top: 290px;
+left: 550px;
+font-size: 120px;
+}
+.song-block1{
+    height: 150px;
+    width: 650px;
+    text-align: center;
+    font-size: x-large;
+    margin-left:20px;
+    margin-top:20px;
+}
+.song1{
+    font-family:"silkscreen";
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    z-index:2;
+}
+.number1{
+    height: 150px;
+    width: 650px;
+    text-align: center;
+    font-size: x-large;
+    margin-left:10px;
+    margin-top:-405px;
+}
+.songnumber-1{
+    font-family:Impact, 'Arial Narrow Bold', sans-serif;
+    color: rgb(186, 138, 189);
+    font-size: 200px;
+    position: relative;
+    z-index: 1;
+
+}
+
+.song-block2{
+    height: 150px;
+    width: 100px;
+    text-align: center;
+    font-size: x-large;
+    margin-left:2055px;
+    margin-top:40px;
+}
+.song2{
+    font-family:"silkscreen";
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    z-index:2;
+}
+.number2{
+    height: 150px;
+    width: 600px;
+    text-align: center;
+    font-size: x-large;
+    margin-left:1930px;
+    margin-top:-400px;
+}
+.songnumber-2{
+    font-family:Impact, 'Arial Narrow Bold', sans-serif;
+    color: rgb(186, 138, 189);
+    font-size: 200px;
+    position: relative;
+    z-index: 1;
+
+}
+.song-block3{
+    height: 150px;
+    width: 400px;
+    text-align: center;
+    font-size: x-large;
+    margin-left:500px;
+    margin-top:490px;
+}
+.song3{
+    font-family:"silkscreen";
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    z-index:2;
+}
+.number3{
+    height: 150px;
+    width: 650px;
+    text-align: center;
+    font-size: x-large;
+    margin-left:675px;
+    margin-top:-410px;
+}
+
+.songnumber-3{
+    font-family:Impact, 'Arial Narrow Bold', sans-serif;
+    color: rgb(186, 138, 189);
+    font-size: 200px;
+    position: relative;
+    z-index: 1;
+
+}
+.song-block4{
+    height: 150px;
+    width: 650px;
+    text-align: center;
+    font-size: x-large;
+    margin-left:1500px;
+    margin-top:200px;
+}
+.song4{
+    font-family:"silkscreen";
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    z-index:2;
+}
+
+.number4{
+    height: 150px;
+    width: 650px;
+    text-align: center;
+    font-size: x-large;
+    margin-left:1490px;
+    margin-top:-410px;
+}
+.songnumber-4{
+    font-family:Impact, 'Arial Narrow Bold', sans-serif;
+    color: rgb(186, 138, 189);
+    font-size: 200px;
+    position: relative;
+    z-index: 1;
+
+}
