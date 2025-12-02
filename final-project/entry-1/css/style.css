@@ -7,9 +7,6 @@ body{
 }
 .container{
     background-color:rgb(139, 166, 181);
-    width:2550px;
-    height:1340px;
-    padding-top: 25px;
 }
 .lyric-block1{
     height: 550px;
