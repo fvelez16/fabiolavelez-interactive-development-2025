@@ -1,6 +1,6 @@
 @font-face{
     font-family: "silkscreen";
-    src: url(../fonts/Silkscreen-Regular.ttf);
+    src: url(../lobby-fonts/Silkscreen-Regular.ttf);
 }
 body{
     background-color:rgb(73, 73, 73);
@@ -162,3 +162,29 @@ font-size: 120px;
     z-index: 1;
 
 }
+
+@media screen and (max-width:1080px) and (min-width:960px){
+  div.box{
+    background-color:red;
+    width:calc(50% - 2.6rem);
+    background-color:black;
+    height:26rem;
+  }
+/*These css rules that will only be activated when the page is viewed on a screen and when the browser window is wider than 960px and narrower than 1080px.*/
+} 
+@media screen and (max-width:960px) and (min-width:720px){
+  div.box{
+    background-color:red;
+    width:calc(50% - 2.6rem);
+    background-color:black;
+    height:26rem;
+  }
+/*These css rules that will only be activated when the page is viewed on a screen and when the browser window is wider than 720px and narrower than 960px.*/
+} 
+
+@media screen and (max-width:720px) and (min-width:480px){
+  div.box{
+    background-color:red;
+    width:calc(100% - 2.6rem);
+    height:26rem;
+  }}
