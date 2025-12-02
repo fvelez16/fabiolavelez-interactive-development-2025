@@ -5,7 +5,7 @@ let string1TotalCharacterNumber = MyString.length;
 let string1iterationIndex = 0;
 
 let stringInterval = setInterval(function(){
-    $("#typewriting-target").append(MyString.charAt(string1iterationIndex)); 
+    $("#typewriting-lyric").append(MyString.charAt(string1iterationIndex)); 
     string1iterationIndex = string1iterationIndex + 1;
     console.log("1 iteration completed");
     if(string1iterationIndex == string1TotalCharacterNumber){
@@ -20,7 +20,7 @@ let string2TotalCharacterNumber = MyString2.length;
 let string2iterationIndex = 0;
 
 let string2Interval = setInterval(function(){
-    $("#typewriting-target2").append(MyString2.charAt(string2iterationIndex)); 
+    $("#typewriting-lyric2").append(MyString2.charAt(string2iterationIndex)); 
     string2iterationIndex = string2iterationIndex + 1;
     console.log("1 iteration completed");
     if(string2iterationIndex == string2TotalCharacterNumber){
@@ -35,7 +35,7 @@ let string3TotalCharacterNumber = MyString3.length;
 let string3iterationIndex = 0;
 
 let string3Interval = setInterval(function(){
-    $("#typewriting-target3").append(MyString3.charAt(string3iterationIndex)); 
+    $("#typewriting-lyric3").append(MyString3.charAt(string3iterationIndex)); 
     string3iterationIndex = string3iterationIndex + 1;
     console.log("1 iteration completed");
     if(string3iterationIndex == string3TotalCharacterNumber){
@@ -50,7 +50,7 @@ let string4TotalCharacterNumber = MyString4.length;
 let string4iterationIndex = 0;
 
 let string4Interval = setInterval(function(){
-    $("#typewriting-target4").append(MyString4.charAt(string4iterationIndex)); 
+    $("#typewriting-lyric4").append(MyString4.charAt(string4iterationIndex)); 
     string4iterationIndex = string4iterationIndex + 1;
     console.log("1 iteration completed");
     if(string4iterationIndex == string4TotalCharacterNumber){
@@ -65,7 +65,7 @@ let string5TotalCharacterNumber = MyString5.length;
 let string5iterationIndex = 0;
 
 let string5Interval = setInterval(function(){
-    $("#typewriting-target5").append(MyString5.charAt(string5iterationIndex)); 
+    $("#typewriting-lyric5").append(MyString5.charAt(string5iterationIndex)); 
     string5iterationIndex = string5iterationIndex + 1;
     console.log("1 iteration completed");
     if(string5iterationIndex == string5TotalCharacterNumber){
@@ -80,7 +80,7 @@ let string6TotalCharacterNumber = MyString6.length;
 let string6iterationIndex = 0;
 
 let string6Interval = setInterval(function(){
-    $("#typewriting-target6").append(MyString6.charAt(string6iterationIndex)); 
+    $("#typewriting-lyric6").append(MyString6.charAt(string6iterationIndex)); 
     string6iterationIndex = string6iterationIndex + 1;
     console.log("1 iteration completed");
     if(string6iterationIndex == string6TotalCharacterNumber){

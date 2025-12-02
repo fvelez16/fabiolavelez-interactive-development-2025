@@ -29,7 +29,7 @@ color: rgb(178, 178, 178);
 font-size: 120px;
 }
 
-#typewriting-target{
+#typewriting-lyric{
     color:rgb(178, 178, 178);
     font-family: "silkscreen";
     font-size:larger;
@@ -37,19 +37,19 @@ font-size: 120px;
     width: 200px;
 }
 
-#typewriting-target2{
+#typewriting-lyric2{
     color:rgb(178, 178, 178);
     font-family: "silkscreen";
     font-size:smaller;
 }
-#typewriting-target3{
+#typewriting-lyric3{
     color:rgb(178, 178, 178);
     font-family: "silkscreen";
     font-size:x-large;
     height: 200px;
     width: 300px;
 }
-#typewriting-target4{
+#typewriting-lyric4{
     color:rgb(178, 178, 178);
     font-family: "silkscreen";
     font-size:medium;
@@ -57,14 +57,14 @@ font-size: 120px;
     width: 300px;
 }
 
-#typewriting-target5{
+#typewriting-lyric5{
     color:rgb(178, 178, 178);
     font-family: "silkscreen";
     font-size:x-large;
     height: 300px;
     width: 100px;
 }
-#typewriting-target6{
+#typewriting-lyric6{
     color:rgb(178, 178, 178);
     font-family: "silkscreen";
     font-size:large;
