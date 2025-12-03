@@ -4,14 +4,14 @@
 }
 
 body{
-    background-color:rgb(61, 66, 147); 
+    background-color:rgb(40, 43, 105); 
 }
 
 .container{
     width:2550px;
     height:1340px;
     padding-top: 25px;
-    background-color:rgb(61, 66, 147); 
+    background-color:rgb(40, 43, 105); 
 }
 
 
@@ -28,6 +28,11 @@ font-family:Impact, 'Arial Narrow Bold', sans-serif;
 color: rgb(214, 238, 242);
 font-size: 120px;
 }
+#glowing-text{
+    text-shadow: #FFFF 0px 0px 9px;
+}
+
+
 
 .lyric-block1{
     height: 550px;
