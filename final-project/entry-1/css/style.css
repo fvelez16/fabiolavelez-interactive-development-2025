@@ -197,3 +197,12 @@ span{
     width:calc(100% - 2.6rem);
     height:26rem;
   }}
+
+  @media screen and (max-width:1080px) and (min-width:960px){
+  .container{
+    background-color:red;
+    width:calc(50% - 2.6rem);
+    background-color:black;
+    height:26rem;
+  }
+} 
