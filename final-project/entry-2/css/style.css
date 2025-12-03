@@ -24,6 +24,24 @@ font-family:Impact, 'Arial Narrow Bold', sans-serif;
 color: rgb(187, 210, 150);
 font-size: 120px;
 }
+
+#message{
+height: 275px;
+width: 1000px; 
+text-align: center;
+font-size: medium;
+position:absolute;
+top: -40px;
+font-family:Impact, 'Arial Narrow Bold', sans-serif;
+color: rgb(187, 210, 150);
+font-size: 120px;
+transition: all 1s ease;
+}
+
+.left-margin{
+    margin-left: 200px;
+}
+
 span{
     animation: 1s linear infinite;
     animation-name: "blinker";
