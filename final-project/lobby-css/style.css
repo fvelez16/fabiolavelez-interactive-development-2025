@@ -75,11 +75,11 @@ font-size: 17rem;
 
 .song-block2{
     height: 22rem;
-    width: 14rem;
+    width: 55rem;
     text-align: center;
     font-size: x-large;
-    left:310rem;
-    top:6rem;
+    left:297rem;
+    top:31rem;
     position:absolute;
 }
 .song2{
@@ -95,7 +95,7 @@ font-size: 17rem;
     text-align: center;
     font-size: x-large;
     left:280rem;
-    top:-50rem;
+    top:-30rem;
     position:relative;
 }
 .songnumber-2{
@@ -108,11 +108,11 @@ font-size: 17rem;
 }
 .song-block3{
     height: 21rem;
-    width: 57rem;
+    width: 150rem;
     text-align: center;
     font-size: x-large;
-    margin-left:72rem;
-    margin-top:70rem;
+    margin-left:40rem;
+    margin-top:75rem;
     position: absolute;
 }
 .song3{
@@ -175,3 +175,35 @@ font-size: 17rem;
 
 }
 
+@media screen and (max-width:1080px) and (min-width:960px){
+  div.box{
+    background-color:red;
+    width:calc(50% - 2.6rem);
+    background-color:black;
+    height:26rem;
+  }
+} 
+@media screen and (max-width:960px) and (min-width:720px){
+  div.box{
+    background-color:red;
+    width:calc(50% - 2.6rem);
+    background-color:black;
+    height:26rem;
+  }
+} 
+
+@media screen and (max-width:720px) and (min-width:480px){
+  div.box{
+    background-color:red;
+    width:calc(100% - 2.6rem);
+    height:26rem;
+  }}
+
+  @media screen and (max-width:1080px) and (min-width:960px){
+  .container{
+    background-color:red;
+    width:calc(50% - 2.6rem);
+    background-color:black;
+    height:26rem;
+  }
+} 
