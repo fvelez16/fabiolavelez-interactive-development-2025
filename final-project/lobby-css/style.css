@@ -1,15 +1,19 @@
+@charset "utf-8";
+
 @font-face{
     font-family: "silkscreen";
     src: url(../lobby-fonts/Silkscreen-Regular.ttf);
 }
+html{
+    font-size:7px;
+    line-height: 1.3;
+}
 body{
     background-color:rgb(73, 73, 73);
+    font-size: 0;
 }
 .container{
     background-color:rgb(73, 73, 73);
-    width:2550px;
-    height:1340px;
-    padding-top: 25px;
 }
 
 a{
@@ -26,163 +30,148 @@ a:active{
 #lobbytitle{
 font-family:Impact, 'Arial Narrow Bold', sans-serif;
 color: rgb(204, 204, 204);
-height: 275px;
-width: 1490px; 
+height: 6rem;
+width: 200rem; 
 text-align: center;
 font-size: medium;
 position:absolute;
-top: 290px;
-left: 550px;
-font-size: 120px;
+top: 55rem;
+left: 80rem;
+font-size: 17rem;
 }
 .song-block1{
-    height: 150px;
-    width: 650px;
+    height: 20rem;
+    width: 93rem;
     text-align: center;
     font-size: x-large;
-    margin-left:20px;
-    margin-top:20px;
+    left:6rem;
+    top:16rem;
+    position: absolute;
 }
 .song1{
     font-family:"silkscreen";
     color: white;
-    font-size: 35px;
+    font-size: 5rem;
     position: absolute;
     z-index:2;
+    font-family: "silkscreen";
 }
 .number1{
-    height: 150px;
-    width: 650px;
+    height: 21rem;
+    width: 93rem;
     text-align: center;
     font-size: x-large;
-    margin-left:10px;
-    margin-top:-405px;
+    left: 1rem;
+    top:58rem;
 }
 .songnumber-1{
     font-family:Impact, 'Arial Narrow Bold', sans-serif;
     color: rgb(186, 138, 189);
-    font-size: 200px;
+    font-size: 29rem;
     position: relative;
     z-index: 1;
 
 }
 
 .song-block2{
-    height: 150px;
-    width: 100px;
+    height: 22rem;
+    width: 14rem;
     text-align: center;
     font-size: x-large;
-    margin-left:2055px;
-    margin-top:40px;
+    left:310rem;
+    top:6rem;
+    position:absolute;
 }
 .song2{
     font-family:"silkscreen";
     color: white;
-    font-size: 35px;
+    font-size: 5rem;
     position: absolute;
     z-index:2;
 }
 .number2{
-    height: 150px;
-    width: 600px;
+    height: 21rem;
+    width: 86rem;
     text-align: center;
     font-size: x-large;
-    margin-left:1930px;
-    margin-top:-400px;
+    left:280rem;
+    top:-50rem;
+    position:relative;
 }
 .songnumber-2{
     font-family:Impact, 'Arial Narrow Bold', sans-serif;
     color: rgb(186, 138, 189);
-    font-size: 200px;
+    font-size: 29rem;
     position: relative;
     z-index: 1;
 
 }
 .song-block3{
-    height: 150px;
-    width: 400px;
+    height: 21rem;
+    width: 57rem;
     text-align: center;
     font-size: x-large;
-    margin-left:500px;
-    margin-top:490px;
+    margin-left:72rem;
+    margin-top:70rem;
+    position: absolute;
 }
 .song3{
     font-family:"silkscreen";
     color: white;
-    font-size: 35px;
+    font-size: 5rem;
     position: absolute;
     z-index:2;
 }
 .number3{
-    height: 150px;
-    width: 650px;
+    height: 21rem;
+    width: 93rem;
     text-align: center;
     font-size: x-large;
-    margin-left:675px;
-    margin-top:-410px;
+    margin-left:57rem;
+    margin-top:65rem;
+     position: relative;
 }
 
 .songnumber-3{
     font-family:Impact, 'Arial Narrow Bold', sans-serif;
     color: rgb(186, 138, 189);
-    font-size: 200px;
+    font-size: 29rem;
     position: relative;
     z-index: 1;
 
 }
 .song-block4{
-    height: 150px;
-    width: 650px;
+    height: 21rem;
+    width: 93rem;
     text-align: center;
     font-size: x-large;
-    margin-left:1500px;
-    margin-top:200px;
+    margin-left:210rem;
+    margin-top:5rem;
+    position: absolute;
 }
 .song4{
     font-family:"silkscreen";
     color: white;
-    font-size: 35px;
+    font-size: 5rem;
     position: absolute;
     z-index:2;
 }
 
 .number4{
-    height: 150px;
-    width: 650px;
+    height: 21rem;
+    width: 93rem;
     text-align: center;
     font-size: x-large;
-    margin-left:1490px;
-    margin-top:-410px;
+    margin-left:213rem;
+    margin-top:-34rem;
+    position: relative;
 }
 .songnumber-4{
     font-family:Impact, 'Arial Narrow Bold', sans-serif;
     color: rgb(186, 138, 189);
-    font-size: 200px;
+    font-size: 29rem;
     position: relative;
     z-index: 1;
 
 }
 
-@media screen and (max-width:1080px) and (min-width:960px){
-  div.box{
-    background-color:red;
-    width:calc(50% - 2.6rem);
-    background-color:black;
-    height:26rem;
-  }
-} 
-@media screen and (max-width:960px) and (min-width:720px){
-  div.box{
-    background-color:red;
-    width:calc(50% - 2.6rem);
-    background-color:black;
-    height:26rem;
-  }
-} 
-
-@media screen and (max-width:720px) and (min-width:480px){
-  div.box{
-    background-color:red;
-    width:calc(100% - 2.6rem);
-    height:26rem;
-  }}
