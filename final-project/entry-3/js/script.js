@@ -1,3 +1,3 @@
-jQuery(document).ready(function(){
-    jQuery("#glowing-text").glow();
+$("#glowing-text").on("click", function(){
+    $("#glowing-text").toggleClass("text-shadow")
 })
