@@ -174,35 +174,28 @@ span{
     color: pink;
 }
 
-@media screen and (max-width:1080px) and (min-width:960px){
-  div.box{
-    background-color:red;
+/* @media screen and (max-width:1080px) and (min-width:960px){
+  div.container{
     width:calc(50% - 2.6rem);
-    background-color:black;
     height:26rem;
   }
 } 
 @media screen and (max-width:960px) and (min-width:720px){
-  div.box{
-    background-color:red;
+  div.container{
     width:calc(50% - 2.6rem);
-    background-color:black;
     height:26rem;
   }
 } 
 
 @media screen and (max-width:720px) and (min-width:480px){
-  div.box{
-    background-color:red;
+  div.container{
     width:calc(100% - 2.6rem);
     height:26rem;
   }}
 
   @media screen and (max-width:1080px) and (min-width:960px){
-  .container{
-    background-color:red;
+  div.container{
     width:calc(50% - 2.6rem);
-    background-color:black;
     height:26rem;
   }
-} 
+}  */
