@@ -18,11 +18,14 @@ body{
   height:100%;
   
 }
-
+.song-title{
+margin-top:0%;
+display:inline-block;
+}
 #glowing-text{
     font-family:Impact, 'Arial Narrow Bold', sans-serif;
     color: rgb(214, 238, 242);
-    font-size: 20rem;
+    font-size: 15rem;
     text-align: center;
     transition: all 1s ease;
 
@@ -36,7 +39,7 @@ body{
     color: rgb(255, 255, 255);
     font-size: 6rem;
     margin-left: 5%;
-
+    top: auto;
     animation-name:fade-animation1;
     animation-duration:3s;
     animation-iteration-count: 1;
@@ -45,7 +48,7 @@ body{
 .text2{
     font-family:"silkscreen";
     color: rgb(255, 255, 255);
-    font-size: 15rem;
+    font-size: 12rem;
     margin-left:40%;
     margin-right:20%;
 
