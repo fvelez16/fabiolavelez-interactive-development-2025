@@ -61,7 +61,8 @@ body{
 .text6{
 font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 color: rgb(171, 99, 99);
-font-size: 120px;  
+font-size: 15rem;  
+text-align: center;
 } 
 
 span{
