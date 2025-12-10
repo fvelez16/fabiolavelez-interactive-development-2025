@@ -64,7 +64,13 @@ color: rgb(171, 99, 99);
 font-size: 15rem;  
 text-align: center;
 } 
-
+#message{
+    transition: all 0.3s ease;
+}
+.title-change{
+    font-family: cursive;
+    color:rgb(40, 85, 116);
+}
 span{
     animation: 1s linear infinite;
     animation-name: "blinker";
