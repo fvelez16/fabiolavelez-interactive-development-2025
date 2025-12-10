@@ -1,4 +1,4 @@
-let MyString = "I've been looking so long at these pictures of you That I almost believe that they're real";
+let MyString = 'Ive been looking so long at these pictures of you That I almost believe that they‘re real';
 
 let string1TotalCharacterNumber = MyString.length;
 
@@ -87,3 +87,5 @@ let string6Interval = setInterval(function(){
         clearInterval(string6Interval);
     }
 }, 70); 
+
+
