@@ -1,24 +1,68 @@
- body{
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-color:rgb(255, 228, 233);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-    h1{
-        color:darkmagenta;
-        font-family: "cherry-bomb";
-        font-size: 55px;
-        margin-top: 2px;
-    }
-    h3{
-        color:darkmagenta
-    }
-    @font-face {
+@charset "utf-8";
+@font-face {
         font-family: "cherry-bomb";
         src: url(fonts/CherryBombOne-Regular.ttf);
     }
-    img{
-        height:1570px;
-        margin-top: 2rem;
-        margin-left: -5rem;
+@font-face{
+    font-family:"playpen";
+    src:url(fonts/PlaypenSansThai-VariableFont_wght.ttf);
+}
+html{
+    font-size:7px;
+    line-height: 1.3;
+}
+
+body{
+  background-color:rgb(83, 82, 82);
+
+}
+
+.container{
+  width: 100%;
+  height:100%;
+  
+}
+.site-name{
+        color:rgb(241, 169, 216);
+        font-family: "cherry-bomb";
+        font-size: 15rem;
+        text-align:center;
+}
+#title{
+ transition: all 0.3s ease;
+}
+.title-change{
+    font-family:"playpen";
+    color:rgb(241, 89, 203);
+}
+
+
+
+.project-header{
+        color:rgb(241, 169, 216);
+        font-size: 12rem;
+        font-family: "cherry-bomb";
+        text-align:center;
     }
+    
+p{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     color:rgb(246, 205, 232);
+     font-size: 6rem;
+
+}
+.other-sites{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 4rem;
+    color:rgb(246, 205, 232);
+    text-align: center;
+}
+a{
+    color:rgb(246, 205, 232);
+}
+a:hover{
+    color:rgb(241, 89, 203);
+    font-size:10rem;
+}
+
+
